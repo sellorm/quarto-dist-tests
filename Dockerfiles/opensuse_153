@@ -1,0 +1,5 @@
+FROM opensuse/leap:15.3
+
+RUN mkdir /quarto
+
+ENTRYPOINT /quarto/bin/quarto --help

@@ -1,0 +1,5 @@
+FROM centos:centos7
+
+RUN mkdir /quarto
+
+ENTRYPOINT /quarto/bin/quarto --help
