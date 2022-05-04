@@ -47,6 +47,6 @@ displays it's help, using the command `quarto --help`.
 If this passes we record a pass, otherwise we record a fail.
 
 This seems like a very superficial test, but given that Quarto is built on top
-of [deno](https://deno.land), it gives us a good indication of whether deno 
-will run on the target distribution.
+of [deno](https://deno.land), it gives us a good indication of whether the
+bundled version of deno will run on the target distribution.
 
